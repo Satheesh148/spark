@@ -11,10 +11,10 @@ object TwitterClient {
     //configuration to create twitter object
     val cb=new ConfigurationBuilder
     cb.setDebugEnabled(true)
-      .setOAuthConsumerKey("fuX8dn6azXkRN9WAD2ZCk6rvw")
-      .setOAuthConsumerSecret("gCb1UwZesfw7Wm7h6kFJHOi0NpzXUgiDVpkihOP4Yxrdtn3aF7")
-      .setOAuthAccessToken("3703772654-p2J9POhkEH4hRblOj05n6dXyCqcKN1AcH57Bnar")
-      .setOAuthAccessTokenSecret("6jLyLl7tpLrBe1AxQhunBi0Gkbi2JqSJ2ILUbkWOWvMRT")
+      .setOAuthConsumerKey("fuX8dn6azXkRN9WAD2ZCk6rvw9")
+      .setOAuthConsumerSecret("gCb1UwZesfw7Wm7h6kFJHOi0NpzXUgiDVpkihOP4Yxrdtn3aF79")
+      .setOAuthAccessToken("3703772654-p2J9POhkEH4hRblOj05n6dXyCqcKN1AcH57Bnar9")
+      .setOAuthAccessTokenSecret("6jLyLl7tpLrBe1AxQhunBi0Gkbi2JqSJ2ILUbkWOWvMRT9")
     val tf=new TwitterFactory(cb.build())
     val twitter=tf.getInstance()
     
